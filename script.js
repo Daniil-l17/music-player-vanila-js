@@ -42,7 +42,6 @@ function updateTimeAudio() {
   if (audio.currentTime === audio.duration) {
     if (indexSongs === songsArray.length - 1) {
       indexSongs = 0
-      isPlay = false
     } else {
       indexSongs += 1
     }
